@@ -616,7 +616,7 @@ body {
 
    background: #000000 url("../img/sprite-icons.png") no-repeat center;
 
-   transition: background-color 0.2s;
+   /*transition: background-color 0.2s;*/
  }
 
  .social-btn:hover {
