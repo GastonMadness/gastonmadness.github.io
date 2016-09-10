@@ -12,7 +12,7 @@
    background-color: #eeeeee;
    width: 1200px;
    margin: 0 auto;
-   margin-bottom: 80px;
+   margin-bottom: 60px;
  }
 
  .container {
@@ -100,7 +100,7 @@
  .index-slider {
    position: relative;
    width: 890px;
-   height: 315px;
+   height: 335px;
    margin: 0 auto;
    color: #000000;
    background-color: #eeeeee;
