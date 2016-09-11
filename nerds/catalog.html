@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container clearfix">
+      <div class="nerds-logo">
+        <a href="index.html"><img src="img/nerds-logo.png" width="139" height="56" alt="Нердс"></a>
+      </div>
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">Студия</a>
+          </li>
+          <li>
+            <a href="#">Клиенты</a>
+          </li>
+          <li class="checked">
+            <a href="catalog.html">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="basket">
+        <a class="basket-btn" href="#">Корзина</a>
+      </div>
+    </div>
+    <div class="welcome-to-shop">
+      <h1>Добро пожаловать в магазин<br>
+        готовых макетов</h1>
+    </div>
+  </header>
+
+  <main class="container clearfix">
+    <div class="index-map">
+      <div  class="index-map-content">
+        <h3>NЁRDS DESIGN STUDIO</h3>
+        <p>
+          191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+        </p>
+        <p>
+          тел. +7 (812) 275-75-75
+        </p>
+        <a class="btn open-write-us" href="#">Напишите нам</a>
+      </div>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="container clearfix">
+      <section class="footer-social">
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </section>
+      <section class="social-benefit">
+        <h2 class="index-content-title">Давайте дружить, это выгодно!</h2>
+        <p>
+          Скидка 10% для друзей из социальных сетей.
+        </p>
+      </section>
+    </div>
+  </footer>
+  <div class="modal-contacts">
+    <button class="modal-contacts-close" type="button" title="Закрыть">Закрыть
+    </button>
+    <form class="contact-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>Ваше имя:
+      </p>
+      <p>
+      Ваш e-mail:
+      </p>
+      <input class="contact-name" type="text" name="name" placeholder="Представьтесь, пожалуйста">
+      <input class="contact-email" type="text" name="e-mail" placeholder="Для отправки ответа">
+      <p>Текст письма:</p>
+      <textarea class="contact-text" type="textarea" wrap="soft" name="text" placeholder="В свободной форме"></textarea>
+      <button class="btn send-contact" type="submit">Отправить</button>
+    </form>
+  </div>
+  <div class="modal-overlay"></div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -79,7 +79,6 @@
  .basket {
    float: right;
    width: 100px;
-   /*min-height: 100px;*/
    margin-top: 54px;
  }
 
@@ -124,6 +123,29 @@
 
  .basket a:active {
    color: #ababab;
+ }
+
+ .welcome-to-shop {
+   position: relative;
+   width: 890px;
+   height: 228px;
+   margin: 0 auto;
+   color: #000000;
+   background-color: #eeeeee;
+ }
+
+ .welcome-to-shop h1{
+   margin: 0;
+   padding: 0;
+   color: #000000;
+   font-size: 40px;
+   line-height: 49px;
+   font-weight: 500;
+   font-family: "Roboto", "Arial", sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+   padding-top: 48px;
+   padding-right: 9px;
  }
 
  .index-slider {
@@ -691,7 +713,7 @@
  }
 
  .modal-contacts {
-   /*display: none;*/
+   display: none;
 
    z-index: 30;
 
@@ -804,7 +826,6 @@
  }
 
  .contact-name::-webkit-input-placeholder {
-    /*font-weight: bold;*/
     opacity: 1;
     text-transform: uppercase;
   }
