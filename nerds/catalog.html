@@ -20,8 +20,8 @@
           <li>
             <a href="#">Клиенты</a>
           </li>
-          <li class="checked">
-            <a href="catalog.html">Магазин</a>
+          <li class="active">
+            <span>Магазин</span>
           </li>
           <li>
             <a href="#">Контакты</a>
@@ -39,6 +39,148 @@
   </header>
 
   <main class="container clearfix">
+
+    <div class="inner-content">
+      <div class="inner-catalog-left">
+        <form action="https://echo.htmlacademy.ru" method="post">
+        <h2>Стоимость:</h2>
+          <label class="price-fork">
+            <div class="price-slider"></div>
+           <p>От</p>
+           <input class="price-form" type="text" name="price-from" maxlength="5" value="0">
+           <p>До</p>
+           <input class="price-form" type="text" name="price-to" maxlength="5" value="15000">
+          </label>
+          <h2 >Сетка:</h2>
+          <label class="describe">
+          <input class="radio-form" type="radio" name="type-mesh" checked disabled>
+          <span class="radio-indicator"></span>
+          <p>Адаптивная</p>
+          </label>
+          <label class="describe">
+          <input class="ratio-form" type="radio" name="type-mesh">
+          <span class="radio-indicator"></span>
+          <p>Фиксированная</p>
+          </label>
+          <label class="describe">
+          <input class="ratio-form" type="radio" name="type-mesh">
+          <span class="radio-indicator"></span>
+          <p>Резиновая</p>
+          </label>
+          <h2 class="section-form">Особенности</h2>
+          <label class="describe">
+          <input class="checkbox-form" type="checkbox" name="slider">
+          <span class="checkbox-indicator"></span>
+          <p>Слайдер</p>
+          </label>
+          <label class="describe">
+          <input class="checkbox-form" type="checkbox" name="advantage-block">
+          <span class="checkbox-indicator"></span>
+          <p>Блок преимуществ</p>
+          </label>
+          <label class="describe">
+          <input class="checkbox-form" type="checkbox" name="news" checked disabled>
+          <span class="checkbox-indicator"></span>
+          <p>Новости</p>
+          </label>
+          <label class="describe">
+          <input class="checkbox-form" type="checkbox" name="gallery" disabled>
+          <span class="checkbox-indicator"></span>
+          <p>Галерея</p>
+          </label>
+          <label class="describe">
+          <input class="checkbox-form" type="checkbox" name="basket">
+          <span class="checkbox-indicator"></span>
+          <p>Корзина</p>
+          </label>
+          <button class="btn show" type="submit">Показать</button>
+        </form>
+      </div>
+      <div class="inner-catalog-right">
+        <div class="sorting">
+          Сортировать:
+          <a href="#">По цене</a>
+          <a href="#">По типу</a>
+          <a href="#">По функционалу</a>
+          <a href="#"><span class="increase-indicator"></span></a>
+          <a href="#"><span class="decrease-indicator"></span></a>
+        </div>
+
+        <div class="catalog-item">
+         <div class="bg-item">
+           <div class="modal-catalog-item">
+             <h2>Aviator</h2>
+             <p>Одностраничный макет<br>
+                с авторским дизайном</p>
+             <a href="#" class="btn catalog">8000 р.</a>
+           </div>
+         </div>
+        </div>
+
+        <div class="catalog-item">
+         <div class="bg-item">
+           <div class="modal-catalog-item">
+             <h2>Sunset</h2>
+             <p>Интернет-магазин<br>
+                с личным кабинетом</p>
+             <a href="#" class="btn catalog">10000 р.</a>
+           </div>
+         </div>
+        </div>
+
+        <div class="catalog-item">
+         <div class="bg-item">
+           <div class="modal-catalog-item">
+             <h2>Forte</h2>
+             <p>Интернет-магазин<br>
+                с личным кабинетом</p>
+             <a href="#" class="btn catalog">11000 р.</a>
+           </div>
+         </div>
+        </div>
+
+        <div class="catalog-item">
+         <div class="bg-item">
+           <div class="modal-catalog-item">
+             <h2>Modern Organic</h2>
+             <p>Интернет-магазин<br>
+                с личным кабинетом</p>
+             <a href="#" class="btn catalog">9000 р.</a>
+           </div>
+         </div>
+        </div>
+
+        <div class="catalog-item">
+         <div class="bg-item">
+           <div class="modal-catalog-item">
+             <h2>Avenue</h2>
+             <p>Интернет-магазин<br>
+                с личным кабинетом</p>
+             <a href="#" class="btn catalog">11000 р.</a>
+           </div>
+         </div>
+        </div>
+
+        <div class="catalog-item">
+         <div class="bg-item">
+           <div class="modal-catalog-item">
+             <h2>Dovetail</h2>
+             <p>Интернет-магазин<br>
+                с личным кабинетом</p>
+             <a href="#" class="btn catalog">6000 р.</a>
+           </div>
+         </div>
+        </div>
+
+      <div class="numb-pages">
+        <a href="#" class="btn cd">1</a>
+        <a href="#" class="btn">2</a>
+        <a href="#" class="btn">3</a>
+        <a href="#" class="btn next">Следующая</a>
+      </div>
+      </div>
+    </div>
+
     <div class="index-map">
       <div  class="index-map-content">
         <h3>NЁRDS DESIGN STUDIO</h3>
@@ -48,7 +190,7 @@
         <p>
           тел. +7 (812) 275-75-75
         </p>
-        <a class="btn open-write-us" href="#">Напишите нам</a>
+        <button class="btn open-write-us" type="button" href="#">Напишите нам</button>
       </div>
     </div>
   </main>
